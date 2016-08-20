@@ -1,0 +1,8 @@
+Super Jefe
+	Jefecito
+		Empleado de Jefecito
+		Otro empleado de jefecito
+			asistente de otro empleado
+	Otro jefecito de otro departamento
+		Empleado de otro jefecito
+			Empleadito de otro jefecito
