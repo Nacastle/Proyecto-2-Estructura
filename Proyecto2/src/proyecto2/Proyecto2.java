@@ -71,16 +71,19 @@ public class Proyecto2 {
     */
     
     public static void imprimir(){
+        int cont = 0;
         for (int i = 1; i < GenList.fin(); i++) {
             for (int j = 1; j < GenList.recuperar(i).listaPersona.fin(); j++) {
-                if (i == 0) {
+                if (i == 1) {
                     System.out.print("\t\t\t\t\t\t"+GenList.recuperar(i).listaPersona.recuperar(j).Nombre+"\t");
-                }else if(i==1){
+                }else if(i==2){
                     System.out.print("\t\t\t"+GenList.recuperar(i).listaPersona.recuperar(j).Nombre+"\t");
-                }else if (i == 2){
-                    System.out.print(""+GenList.recuperar(i).listaPersona.recuperar(j).Nombre+"\t");
+                }else if (i == 3){
+                    System.out.print("\t\t"+GenList.recuperar(i).listaPersona.recuperar(j).Nombre);
+                }else if(i == 4){
+                    System.out.print("\t\t\t"+GenList.recuperar(i).listaPersona.recuperar(j).Nombre);
                 }else{
-                    System.out.print("\t\t"+GenList.recuperar(i).listaPersona.recuperar(j).Nombre+"\t");
+                    System.out.print("\t\t"+GenList.recuperar(i).listaPersona.recuperar(j).Nombre);
                 }
                 
             }
